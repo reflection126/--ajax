@@ -15,14 +15,14 @@
 <div class="header">欢迎注册！</div>
 <!-- main -->
 <div class="main">
-    <form name ="myForm" action="insertDb.php" method="post" enctype="multipart/form-data">
-<!--  用户名-->
+    <form name="myForm" action="insertDb.php" method="post" enctype="multipart/form-data">
+        <!--  用户名-->
         <div class="input-tip" id="nameTip"><span></span></div>
         <div class="form-item" id="form-item-account">
             <label>用 户 名</label>
             <input type="text" id="username" name="username" class="field" placeholder="请填写您的姓名">
         </div>
-<!--  插入图片      -->
+        <!--  插入图片      -->
         <div class="content">
             <div class="file_upload">
                 <div class="file_con">
@@ -39,72 +39,48 @@
                         <button type="button" id="btn" value="submit">上传</button>
                     </div>
 
-<!--                    <script>-->
-<!--                        //ajax 异步上传图片-->
-<!--                        $('#btn').click(function () {-->
-<!--                            var img = document.myForm.img.files[0];-->
-<!---->
-<!--                            var fm = new FormData();-->
-<!--                            fm.append('img', img);-->
-<!--                            $.ajax(-->
-<!--                                {-->
-<!--                                    url: 'imgAjaxToSession.php',-->
-<!--                                    type: 'POST',-->
-<!--                                    data: fm,-->
-<!--                                    contentType: false, //禁止设置请求类型-->
-<!--                                    processData: false, //禁止jquery对DAta数据的处理,默认会处理-->
-<!--                                    //禁止的原因是,FormData已经帮我们做了处理-->
-<!--                                    success: function (result) {-->
-<!--                                        //测试是否成功-->
-<!--                                        //但需要你后端有返回值-->
-<!--                                        alert("图片信息已经保存到Session");-->
-<!--                                    }-->
-<!--                                }-->
-<!--                            );-->
-<!--                        });-->
-<!--                    </script>-->
                 </div>
-        </div>
+            </div>
             <script src="js/imgAjax.js"></script>
-        <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
-        <script type="text/javascript" src="js/input.js"></script>
+            <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+            <script type="text/javascript" src="js/input.js"></script>
 
-        <!--输入密码-->
-        <div class="input-tip" id="tishi2"><span></span></div>
-        <div class="form-item">
-            <label>设 置 密 码</label>
-            <input type="password" id="password1" class="field" name="password" placeholder="建议至少两种字符组合">
-            <!--            <i class="i-status"></i>-->
-        </div>
+            <!--输入密码-->
+            <div class="input-tip" id="tishi2"><span></span></div>
+            <div class="form-item">
+                <label>设 置 密 码</label>
+                <input type="password" id="password1" class="field" name="password" placeholder="建议至少两种字符组合">
+                <!--            <i class="i-status"></i>-->
+            </div>
 
-        <!-- 确认密码-->
-        <div class="input-tip" id="tishi"><span></span></div>
-        <div class="form-item">
-            <label>确 认 密 码</label>
-            <input type="password" id="password2" class="field" name="password2" placeholder="请再次输入密码"
-                   onkeyup="validate()">
-            <i class="i-status"></i>
-        </div>
+            <!-- 确认密码-->
+            <div class="input-tip" id="tishi"><span></span></div>
+            <div class="form-item">
+                <label>确 认 密 码</label>
+                <input type="password" id="password2" class="field" name="password2" placeholder="请再次输入密码"
+                       onkeyup="validate()">
+                <i class="i-status"></i>
+            </div>
 
-        <!--   手机号码-->
-        <div class="input-tip" id="phoneTip"><span></span></div>
-        <div class="form-item">
-            <label>手 机 号 码</label>
-            <input type="text" id="phoneNum" class="field" name="phoneNum" placeholder="建议使用常用手机" >
-            <i class="i-status"></i>
-        </div>
+            <!--   手机号码-->
+            <div class="input-tip" id="phoneTip"><span></span></div>
+            <div class="form-item">
+                <label>手 机 号 码</label>
+                <input type="text" id="phoneNum" class="field" name="phoneNum" placeholder="建议使用常用手机">
+                <i class="i-status"></i>
+            </div>
 
-        <!--   邮箱地址-->
-        <div class="input-tip" id="emailTip"><span></span></div>
-        <div class="form-item">
-            <label>常 用 邮 箱</label>
-            <input type="text" id="email" class="field" name="email" placeholder="请输入您的常用邮箱" >
-            <i class="i-status"></i>
-        </div>
+            <!--   邮箱地址-->
+            <div class="input-tip" id="emailTip"><span></span></div>
+            <div class="form-item">
+                <label>常 用 邮 箱</label>
+                <input type="text" id="email" class="field" name="email" placeholder="请输入您的常用邮箱">
+                <i class="i-status"></i>
+            </div>
 
-        <div class="submitWrapper">
-            <button id="submit" class="submitButton" type="submit" onclick="check()">立 即 注 册</button>
-        </div>
+            <div class="submitWrapper">
+                <button id="submit" class="submitButton" type="submit" onclick="check()">立 即 注 册</button>
+            </div>
     </form>
     <div class="hasID">已有账号？<a href="logout.php">请登陆</a></div>
 

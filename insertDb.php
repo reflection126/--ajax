@@ -1,4 +1,3 @@
-
 <?php include("postImg.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,14 +10,10 @@
 <body>
 <!-- header -->
 <div class="header">注册结果</div>
-
 <!-- main -->
 <div class="main">
-
     <?php
-
     include("connectToDb.php");
-
     //判断用户名或密码是否为空，并加密密码
     if(trim($_POST['username'])!= "" and trim($_POST['password'])!= ""){
         $username = $_POST["username"];
@@ -33,8 +28,6 @@
             echo "图片上传成功<br>";
         }
 
-
-        //插入数据库
         $insertSql = "INSERT INTO tb_user (username, password, phoneNum,email,img) VALUES ('{$username}','{$password}','{$phoneNum}','{$email}','{$registerImg}')";
         $insertResult = mysqli_query($conn, $insertSql);
 
@@ -47,10 +40,7 @@
     }else{
         echo "用户名或密码为空！". "<a href='register2.php'>请重新注册</a><br><br>";
     }
-
     ?>
-
-
 </div>
 </body>
 </html>
