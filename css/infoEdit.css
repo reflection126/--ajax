@@ -1,0 +1,151 @@
+*{margin:0;padding:0;}
+ol, ul{list-style: none;}
+body{font-family: Arial;font-size: 14px;color: #666;background-color: #fff;}
+a{text-decoration: none;color: #333;}
+
+input, textarea, select, button {
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+
+.header{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	padding:0 5%;
+	border-bottom: 1px #ddd solid;
+	width: 90%;
+	background-color: #306575;
+	top: 0;
+	color: #fff;
+}
+.header a{
+	margin-left: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.main{
+	width: 426px;
+	margin:145px auto 0;
+	overflow: hidden;
+}
+
+
+.form-item{
+	position: relative;
+	border: solid 1px #ddd;
+	width: 398px;
+	height: 52px;
+}
+
+.form-item label{
+	float: left;
+	width: 90px;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 20px;
+}
+.form-item .field{
+	border: 0 none;
+	font-size: 14px;
+	width: 190px;
+	height: 19px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	padding-top: 16px;
+	z-index: 3;
+	outline: none;
+}
+
+
+.input-tip{
+	color: #c5c5c5;
+	height: 27px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+
+.form-item .i-status {
+	position: absolute;
+	/*display: none;*/
+	width: 16px;
+	height: 16px;
+	top: 20px;
+	right: 20px;
+}
+
+
+/*添加图片*/
+.addImgButtonWrapper{
+	margin:0px auto;
+	width: 154px;
+	height: 30px;
+	margin-top: 29px;
+
+}
+.addImgButton{
+
+	width:154px;
+	height:30px;
+	background: #428ba0;
+	color: #fff;
+	border:none;
+	text-align:center;
+}
+.addImgButton:hover{
+	background:#306575;
+}
+
+.imgPic{
+	margin: 0px auto;
+	width: 154px;
+	heigth:200px;
+}
+.imgPic img{
+	width:154px;
+	height:200px;
+}
+
+
+.submitButton{
+	text-align: center;
+	margin:30px auto;
+	border: none;
+	width: 398px;
+	height: 52px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	background-color: #428ba0
+}
+.submitButton:hover{
+	background:#306575;
+}
+
+
+/*设置placeholder*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #ccc; opacity:1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #ccc;opacity:1;
+}
+
+input:-ms-input-placeholder{
+	color: #ccc;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+	color: #ccc;opacity:1;
+}

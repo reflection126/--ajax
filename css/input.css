@@ -1,0 +1,172 @@
+.none {
+    visibility: hidden;
+}
+
+.content {
+    width: 500px;
+}
+
+
+/*修改图片按钮*/
+
+.selectFile {
+    top:17px;
+    width: 161px;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    background: #428ba0;
+    border: none;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.selectFile input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.selectFile:hover {
+    background:#306575;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*修改图片按钮end*/
+
+
+
+/*session 中的图片*/
+
+.sessionImg {
+    margin-top: 14px;
+    background: #fff;
+    width: 184px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    box-shadow:1px 1px #ccc;
+}
+
+.sessionImg img {
+    width: 163px;
+    height: 226px;
+    display: block;
+    margin: 10px auto;
+}
+/*session 中的图片 end*/
+
+
+/*上传图片预览*/
+.file_upload {
+    width: 500px;
+    margin: 10px;
+    display: block;
+    vertical-align: top;
+}
+
+.file_upload > div {
+    width: 400px;
+    /*background: #2ECC71;*/
+}
+
+.file_con .hide {
+    width: 186px;
+    height: 30px;
+    /*opacity: 0;*/
+    filter: alpha(opacity=0);
+    background: #cc0000;
+}
+
+.file_con .file_uploader{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    padding: 6px 14px;
+    color: #fff;
+    background: #333333;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.file_con .hide:hover {
+    box-shadow: 1px 2px #44795b;
+}
+
+
+
+.img_box:hover .delete {
+    display: block;
+}
+.img_box .delete {
+    position: absolute;
+    right: 1px;
+    top: 0;
+    display: none;
+    font-family: Arial;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
+
+.img_holder{
+    background: #fff;
+    width: 184px;
+    height: 249px;
+    border-radius: 4px;
+    border: 1px solid #c5c5c5;
+    display: none;
+
+}
+.img_holder img{
+    width: 163px;
+    height: 226px;
+    display: block;
+    margin: 10px auto;
+}
+
+.img_box {
+    margin-top:13px;
+    background: #fff;
+    width: 184px;
+    height: 249px;
+    float: left;
+    border-radius: 4px;
+    float: left;
+    border: 1px solid #c5c5c5;
+    box-shadow:1px 1px #ccc;
+}
+/*进度条*/
+.progress {
+    width:200px;
+    margin-top: 10px;
+    margin-left: 48px;
+    clear: both;
+}
+
+.imgConfirm #btn{
+    margin-top: 5px;
+    width:186px;
+    height:30px;
+    text-align: center;
+    background: #428ba0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.imgConfirm #btn:hover{
+    background:#306575;
+}

@@ -1,0 +1,77 @@
+*{margin:0;padding:0;}
+ol, ul{list-style: none;}
+body{font-family: Arial;font-size: 14px;color: #666;background-color: #fff;}
+a{text-decoration: none;color: #333;}
+
+input, textarea, select, button {
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+/*头部*/
+.header{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	padding:0 5%;
+	border-bottom: 1px #ddd solid;
+	width: 90%;
+	background-color: #306575;
+	top: 0;
+	color: #fff;
+}
+
+.main{
+	width: 910px;
+	margin: 145px auto 0;
+	overflow: hidden;
+
+}
+/*表头*/
+.main .user{
+	width:100%;
+	height:32px;
+	background: #306575;
+	color:#fff;
+	line-height:32px;
+}
+
+span{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.username{
+	width:130px;
+}
+.password{
+	width:134px;
+}
+.phoneNum{
+	width:150px;
+}
+.email{
+	width:180px;
+}
+.update{
+	width:70px;
+	margin-left:41px;
+}
+.delete{
+	width:70px;
+}
+
+/*表格内容*/
+.userList{
+	width:100%;
+	line-height:32px;
+}

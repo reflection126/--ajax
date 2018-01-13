@@ -1,0 +1,110 @@
+/*左侧按钮*/
+.leftButtons {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+
+
+/*点击预览*/
+
+.submitWrapper {
+    margin-top: 10px;
+}
+
+.submitImg{
+    width: 107px;
+    /* height: 20px; */
+    background: #428ba0;
+    color: #fff;
+    border: none;
+    padding: 4px 12px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.submitImg:hover{
+    background:#306575;
+}
+/*选择文件*/
+
+
+.selectFile {
+    width: 83px;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    background: #428ba0;
+    border: none;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.selectFile input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.selectFile:hover {
+    background:#306575;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*确认提交*/
+.confirmWrapper {
+    margin-top: 13px;
+}
+.confirmImg{
+    width: 107px;
+    /* height: 20px; */
+    background: #428ba0;
+    color: #fff;
+    border: none;
+    padding: 4px 12px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.confirmImg:hover{
+    background:#306575;
+}
+
+.rightGallery {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.imgWrapper {
+    border: 1px solid #ccc;
+    width: 210px;
+    height: 273px;
+}
+.imgWrapper img{
+    width:210px;
+    height:273px;
+}
+
+.infoWrapper{
+    width: 107px;
+    height:100px;
+    word-wrap:break-word;
+    font-size:12px;
+    color:#7a8479;
+}
+.infoWrapper p{
+    margin-top: 27px;
+    width: 107px;
+    height: 44px;
+    color: #7a8479;
+    font-size:12px;
+}

@@ -1,0 +1,89 @@
+*{margin:0;padding:0;}
+ol, ul{list-style: none;}
+body{font-family: Arial;font-size: 12px;color: #333;background-color: #f2f2f2;}
+a{text-decoration: none;color: #333;}
+
+.header{
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	padding:0 5%;
+	border-bottom: 1px #ddd solid;
+	width: 90%;
+	background-color: #306575;
+	position: fixed;
+	top: 0;
+	color: #fff;
+}
+
+.main{
+	width: 940px;
+	margin:80px auto 0;
+	overflow: hidden;
+}
+
+
+.tableWrap{
+	width:800px;
+	border:1px;
+	align:center;
+	cellpadding:0;
+	cellspacing:1;
+	bgcolor:#dddddd;
+}
+
+.tableWrap tr{
+	background: #fff;
+}
+
+.tableWrap .tableInner{
+
+	width:100%;
+	border:0;
+}
+
+.tableInner tr{
+	height: 60px;
+}
+.tableInner .zhxx{
+	height: 33px;
+	background: #f7f7f7;
+	color: #306575;
+	font-size: 16px;
+	line-height: 16px;
+	padding-left: 20px;
+}
+
+.tableInner .leftTd{
+	width: 300px;
+	text-align: right;
+	color: #c00;
+}
+.leftTd b{
+	color:#999;
+}
+
+.submitButton{
+	width: 150px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	background-color: #428ba0
+}
+.submitButton:hover{
+	background-color:#306575;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

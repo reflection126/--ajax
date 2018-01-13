@@ -1,0 +1,102 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#428ba0;
+}
+/* 登陆框 */
+.loginBox{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	margin-top:-175px;
+	width:500px;
+	background:#306575;
+	border-radius: 7px;
+	box-shadow:0 0 5px #ccc;
+}
+/* 登陆框上半部 */
+.loginBox .loginLogo{
+	width: 100%;
+    height: 103px;    
+}
+.loginBox .loginLogo h1{
+	font-size: 36px;
+    text-align: center;
+    height: 38px;
+    padding-top: 35px;
+    color: #fff;
+ }
+/* 登录框下半部 */
+.loginBox .loginContent{
+	padding:50px;
+	height:186px;
+	width:400px;
+	background:#fff;
+	border-radius: 1px 1px 7px 7px;
+}
+.loginContent span{
+	
+}
+
+/* 用户名 */
+.loginBox .loginContent .userNameBox{
+	width: 100%;
+    height: 30px;
+    margin: 17px auto;
+    font-size: 20px;
+}
+
+.loginContent span {
+    display: inline-block;
+    width: 90px;
+    color: #7a8479;
+}
+.userNameBox input{
+	width:250px;
+	height: 25px;
+	line-height:30px;
+}
+/* 密码 */
+.loginBox .loginContent .passwordBox{
+	width:100%;
+	height:30px;
+	margin:10px auto;
+	font-size:20px;
+}
+.passwordBox input{
+	width:250px;
+	height: 25px;
+}
+
+.submitBox {
+	width:230px;
+	height:30px;
+	margin:20px auto;
+}
+
+.submitBox button{
+	width: 255px;
+    height: 35px;
+    background: #428ba0;
+    color: #fff;
+    margin: 0px 6px;
+    font-size: 16px;
+	border:none;
+ }
+.submitBox button:hover{
+	background:#306575;
+}
+.register{
+	text-align: center;
+}
+.register a{
+	text-decoration: none;
+	color: #333;
+	font-size: 13px;
+	line-height: 15px;
+	margin-left: 34px;
+}
+
